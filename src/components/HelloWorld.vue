@@ -1,11 +1,52 @@
-<template lang="pug">
-.h-screen.pt-10
-  .flex.max-w-sm.mx-auto.p-6.rounded-lg.rounded-full.bg-emerald-700 
-    .flex-shrink-0
-      img.h-12.w-12(src="../assets/logo.png")
-    .ml-6
-      h4.text-center.text-xl.text-gray-900.leading-tight.font-serif.hover_text-cyan-500.divide-x-2.divide-green-500 ChitChat
-      p.text-base.text-gray-600.leading-normal You have a message!
+<template>
+  <div class="container mx-auto w-auto">
+    <img
+      src="https://www.apple.com/v/macbook-air/j/images/overview/hero_endframe__ea0qze85eyi6_large.jpg"
+      class="rounded-lg"
+    />
+    <div class="sm_flex flex-wrap overflow-hidden">
+      <div class="sm_w-1/2 lg_1/4 content">
+        <h2 class="text-4xl">Best practices don’t actually work.</h2>
+        <p>
+          I’ve written a few thousand words on why traditional “semantic class
+          names” are the reason CSS is hard to maintain, but the truth is you’re
+          never going to believe me until you actually try it. If you can
+          suppress the urge to retch long enough to give it a chance, I really
+          think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+      </div>
+      <div class="sm_w-1/2 lg_1/4 border rounded-lg border-solid border-slate-600 mt-1 hover_bg-emerald-800 hover_text-slate-100">
+        <h2 class="text-4xl">Best practices don’t actually work.</h2>
+        <p>
+          I’ve written a few thousand words on why traditional “semantic class
+          names” are the reason CSS is hard to maintain, but the truth is you’re
+          never going to believe me until you actually try it. If you can
+          suppress the urge to retch long enough to give it a chance, I really
+          think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+      </div>
+      <div class="sm_w-1/2 lg_1/4 border rounded-lg border-solid border-slate-600 mt-1 hover_bg-emerald-800 hover_text-slate-100">
+        <h2 class="text-4xl">Best practices don’t actually work.</h2>
+        <p>
+          I’ve written a few thousand words on why traditional “semantic class
+          names” are the reason CSS is hard to maintain, but the truth is you’re
+          never going to believe me until you actually try it. If you can
+          suppress the urge to retch long enough to give it a chance, I really
+          think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+      </div>
+      <div class="sm_w-1/2 lg_1/4 border rounded-lg border-solid border-slate-600 mt-1 hover_bg-emerald-800 hover_text-slate-100">
+        <h2 class="text-4xl">Best practices don’t actually work.</h2>
+        <p>
+          I’ve written a few thousand words on why traditional “semantic class
+          names” are the reason CSS is hard to maintain, but the truth is you’re
+          never going to believe me until you actually try it. If you can
+          suppress the urge to retch long enough to give it a chance, I really
+          think you’ll wonder how you ever worked with CSS any other way.
+        </p>
+      </div>
+    </div>
+  </div>
 </template>
 <script lang="ts">
 import { ref, defineComponent } from "vue";

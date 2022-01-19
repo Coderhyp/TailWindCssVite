@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+.content {
+    @apply border rounded-lg border-solid border-slate-600 mt-1 hover_bg-emerald-800 hover_text-slate-100
+    }
+  }
