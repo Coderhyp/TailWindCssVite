@@ -5,7 +5,7 @@
       class="rounded-lg"
     />
     <div class="sm_flex flex-wrap overflow-hidden">
-      <div class="sm_w-1/2 lg_1/4 content">
+      <div class="sm_w-1/2  lg_1/4 content">
         <h2 class="text-4xl">Best practices don’t actually work.</h2>
         <p>
           I’ve written a few thousand words on why traditional “semantic class
